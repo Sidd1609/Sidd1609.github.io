@@ -1,20 +1,23 @@
+<!-- <a href="{{ site.baseurl }}/">About</a> -->
+
 <script type="text/javascript">
 function scrollToPublications() {
 	$(document.body).animate({
 	    'scrollTop':   $('#research').offset().top
-	}, 2000);
+	}, 10000);
 }
 function scrollToProjects() {
 	$(document.body).animate({
-	    'scrollTop':   $('#projects').offset().top
-	}, 2000);
+ 	    'scrollTop':   $('#projects').offset().top
+ 	}, 2000);
+}
+function scrollToHonors() {
+	$(document.body).animate({
+ 	    'scrollTop':   $('#Honors_Awards').offset().top
+ 	}, 2000);
 }
 </script>
 
-<a href="CV/SriSiddarthC(CV).pdf" style="font-size: 1rem" target="_blank">CV</a>
-<a href="#research" style="font-size: 1rem">Research</a>
-<a href="#projects" style="font-size: 1rem">Projects</a>
-<a href="https://scholar.google.com/citations?user=Qn_vjYgAAAAJ&hl=en" style="font-size: 1rem">Scholar</a>
-<a href="https://github.com/{{ site.github_username }}" style="font-size: 1rem">GitHub</a>
-<a href="https://twitter.com/{{ site.twitter_username }}" style="font-size: 1rem">Twitter</a>
-<a href="https://www.linkedin.com/in/viraj-prabhu-0a2a9435/" style="font-size: 1rem">LinkedIn</a>
+<a href="#research">Publications</a>
+<a href="#projects">Projects</a> 
+<a href="#Honors_Awards">Honors</a>
